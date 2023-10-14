@@ -3,7 +3,7 @@
 ### What Are Streams in Java?
 Java streams enable functional-style operations on streams of elements. A stream is an abstraction of a non-mutable collection of functions applied in some order to the data. A stream is not a collection where you can store elements.
 
-[GeeksforGeeks Java 8 Stream Tutorial](https://media.geeksforgeeks.org/wp-content/uploads/20210706120537/JavaStream.png)
+[GeeksforGeeksl](https://media.geeksforgeeks.org/wp-content/uploads/20210706120537/JavaStream.png)
 
 
 The java.util.stream.Stream interface in Java provides a variety of methods for working with streams. While it's not
