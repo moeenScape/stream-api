@@ -5,7 +5,7 @@ Java streams enable functional-style operations on streams of elements. A stream
 
 [GeeksforGeeksl](https://media.geeksforgeeks.org/wp-content/uploads/20210706120537/JavaStream.png)
 
-
+Source   : (https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html)
 The java.util.stream.Stream interface in Java provides a variety of methods for working with streams. While it's not
 feasible to provide examples for all of them in a single response due to their number, I can give you a list of some
 commonly used methods. You can explore the documentation or specific use cases for each method as needed.
