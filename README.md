@@ -3,8 +3,16 @@
 ### What Are Streams in Java?
 Java streams enable functional-style operations on streams of elements. A stream is an abstraction of a non-mutable collection of functions applied in some order to the data. A stream is not a collection where you can store elements.
 
+### Different Operations On Streams
+
+There are two types of Operations in Streams:
+
+    1. Intermediate Operations
+    2 .Terminate Operations
+
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210706120537/JavaStream.png" alt="Screenshot 1" style="width: 45%;">
+
 ### Example of Stream API :
 ```java
 {
