@@ -9,9 +9,9 @@ There are two types of Operations in Streams:
 
     1. Intermediate Operations
     2 .Terminate Operations
-
-
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20210706120537/JavaStream.png" alt="Screenshot 1" style="width: 45%;">
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20210706120537/JavaStream.png" alt="Screenshot 1">
+<img src="https://github.com/moeen775/stream-api/blob/main/238.Java-streams.jpg" alt="Screenshot 1">
+Source   : (https://www.geeksforgeeks.org/java-8-stream-tutorial/) (https://s29840.pcdn.co/wp-content/uploads/2020/06/238.Java-streams.jpg) <br> <br><br>
 
 ### Example of Stream API :
 ```java
