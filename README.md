@@ -3,9 +3,24 @@
 ### What Are Streams in Java?
 Java streams enable functional-style operations on streams of elements. A stream is an abstraction of a non-mutable collection of functions applied in some order to the data. A stream is not a collection where you can store elements.
 
-[GeeksforGeeksl](https://media.geeksforgeeks.org/wp-content/uploads/20210706120537/JavaStream.png)
 
-Source   : (https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html)
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20210706120537/JavaStream.png" alt="Screenshot 1" style="width: 45%;">
+### Example of Stream API :
+```java
+{
+List<Integer> transactionsIds = 
+    transactions.parallelStream()
+                .filter(t -> t.getType() == Transaction.GROCERY)
+                .sorted(comparing(Transaction::getValue).reversed())
+                .map(Transaction::getId)
+                .collect(toList());
+}
+```
+<img src="https://github.com/moeen775/stream-api/blob/main/2179048.jpg" alt="Screenshot 1">
+<img src="https://github.com/moeen775/stream-api/blob/main/2179051.jpg" alt="Screenshot 1">
+Source   : (https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html) <br> <br><br>
+
+### 
 The java.util.stream.Stream interface in Java provides a variety of methods for working with streams. While it's not
 feasible to provide examples for all of them in a single response due to their number, I can give you a list of some
 commonly used methods. You can explore the documentation or specific use cases for each method as needed.
