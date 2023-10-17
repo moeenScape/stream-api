@@ -1,8 +1,11 @@
 import stream.filter;
+import stream.flatmap;
 import stream.map;
 
 import java.util.Arrays;
 import java.util.List;
+
+import static stream.map.getStringLength;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,5 +21,9 @@ public class Main {
         System.out.println(" ");
         System.out.print("After Map Number : ");
         display.displayNumber(map.getNumberByMap(numbers));
+        System.out.print("Length of word : ");
+        display.displayNumber(getStringLength());
+        System.out.print("After Flat Map : ");
+        display.displayNumber(flatmap.getNumberAfterFlatMap());
     }
 }
