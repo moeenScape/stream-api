@@ -1,6 +1,7 @@
 import stream.filter;
 import stream.flatmap;
 import stream.map;
+import stream.reduce;
 
 import java.util.Arrays;
 import java.util.List;
@@ -25,5 +26,7 @@ public class Main {
         display.displayNumber(getStringLength());
         System.out.print("After Flat Map : ");
         display.displayNumber(flatmap.getNumberAfterFlatMap());
+        System.out.println();
+        System.out.println("Sum By Reduce : " + reduce.getSumByReduce(numbers));
     }
 }
