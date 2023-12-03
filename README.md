@@ -46,6 +46,9 @@ List<Integer> evenNumbers = numbers.stream()
 
 }
 ```
+```console
+output : [2, 4, 6, 8, 10]
+```
 
 * map(Function<T, R> mapper) - Transforms each element of the stream using the provided function.
 ```java
