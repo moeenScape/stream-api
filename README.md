@@ -133,6 +133,13 @@ System.out.println("Count of words: " + count);
 output : Count of words: 4
 
 ```
+Explanation:
+
+- The count() terminal operation is applied to the stream of strings (words).
+- It returns the count of elements in the stream, which represents the number of words in the list.
+- The result is printed using System.out.println.
+
+  
 * distinct() - Returns a stream with distinct elements.
 ```java
 List<Integer> numbers = Arrays.asList(1, 2, 2, 3, 4, 4, 5);
@@ -197,6 +204,12 @@ System.out.println("Any number greater than 10? " + anyGreaterThan10);
 ```console
 output : Any number greater than 10? true
 ```
+Explanation:
+
+- The anyMatch terminal operation is applied to the stream of integers (numbers).
+- The lambda expression number -> number > 10 checks if any element in the stream is greater than 10.
+- In the given list [1, 20, 12, 8, 25], there are numbers (20, 12, 25) that are greater than 10.-
+- The result, which is a boolean indicating whether any element is greater than 10, is printed using System.out.println. In this case, it is true.
 * allMatch(Predicate<T> predicate) - Checks if all elements in the stream match a given condition.
 ```java
 List<Integer> numbers = Arrays.asList(15, 20, 12, 18, 25);
