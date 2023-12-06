@@ -159,14 +159,18 @@ List<Integer> numbers = Arrays.asList(5, 2, 8, 1, 9);
 List<Integer> sortedNumbers = numbers.stream()
         .sorted()
         .collect(Collectors.toList());
-//another example
+System.out.println(sortedNumbers);
+```
+
+```console
+output1 : [1, 2, 5, 8, 9]
+```
+#### Another Example
+```java
 List<String> fruits = Arrays.asList("apple", "date", "cherry", "banana");
 
 List<String> sortedFruits = fruits.stream().sorted().collect(Collectors.toList());
 System.out.println("Sorted fruits: " + sortedFruits);
-```
-```console
-output1 : [1, 2, 5, 8, 9]
 ```
 ```console
 output2 : [apple, banana, cherry, date]
